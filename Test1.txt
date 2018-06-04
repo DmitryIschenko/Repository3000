@@ -1,0 +1,18 @@
+-<script>
+var x = prompt("¬ведите число","");
+var a="*";
+var b=" "
+for (i = 1; i<=x; i++) {
+	for (j = 1; j<=i; j++) {
+		b=" "
+		for (l = 0; l <= -2*j+2*(x-1)+1; l++) {
+			b=b+"&nbsp"
+		}
+		document.write(b)
+		for (k = 1; k <= 2*j-1; k++) {
+			document.write(a)
+		}
+	document.write("<br>")
+	}
+}
+</script>1
